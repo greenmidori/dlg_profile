@@ -8,5 +8,7 @@ RUN apt-get update -qq && \
 RUN mkdir /dlg_profile
 ENV APP_ROOT /dlg_profile
 WORKDIR $APP_ROOT
-ADD . $APP_ROOT
+ADD ./Gemfile $APP_ROOT/Gemfile
+ADD ./Gemfile.lock $APP_ROOT/Gemfile.lock
 RUN bundle install
+ADD . $APP_ROOT

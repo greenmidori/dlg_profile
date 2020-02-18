@@ -1,0 +1,15 @@
+current directory: /dlg_profile/vendor/cache/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+/usr/local/bin/ruby -I /usr/local/lib/ruby/site_ruby/2.5.0 -r ./siteconf20200212-1-145fsux.rb extconf.rb
+creating Makefile
+
+current directory: /dlg_profile/vendor/cache/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /dlg_profile/vendor/cache/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+current directory: /dlg_profile/vendor/cache/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20200212-1-1qb9zxa
